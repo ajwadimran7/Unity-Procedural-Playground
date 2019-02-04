@@ -18,13 +18,13 @@ public class PerlinNoise : MonoBehaviour
     public float scale = 20f;
 
     //Flag to enable disable continuous noise mpa generation.
-    public bool makeMapAtStart = false;
+    public bool makeMapAtStartOnly = false;
 
     Renderer _renderer;
 
     void Start () {
         _renderer = GetComponent<Renderer> ();
-        if(makeMapAtStart) {
+        if(makeMapAtStartOnly) {
             GenerateTexture ();
         } else {
             StartCoroutine(RegenerateMap());
