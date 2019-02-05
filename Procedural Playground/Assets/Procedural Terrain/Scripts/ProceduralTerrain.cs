@@ -53,7 +53,7 @@ public class ProceduralTerrain : MonoBehaviour
         if(playCoolAnimationZ)
             offsetZ += animationMultiplier * Time.deltaTime;
 
-        if(playCoolAnimationX || playCoolAnimationX)
+        if(playCoolAnimationX || playCoolAnimationZ)
             GenerateTerrain();
     }
 
