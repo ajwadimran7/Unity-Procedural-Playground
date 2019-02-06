@@ -12,7 +12,7 @@ public class ProceduralTerrain : MonoBehaviour
     public int height = 256; //Z
     public int depth = 20; //Y
 
-    //Texture offset for random results.
+    //Noise offset for random results.
     public float offsetX = 100;
     public float offsetZ = 100;
 
