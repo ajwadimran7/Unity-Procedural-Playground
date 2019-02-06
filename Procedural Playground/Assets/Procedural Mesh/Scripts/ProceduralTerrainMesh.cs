@@ -40,9 +40,9 @@ public class ProceduralTerrainMesh : MonoBehaviour
     }
 
     void RandomizeData () {
-        offsetX = Random.Range(2f, 50);
-        offsetZ = Random.Range(2f, 50);
-        scale = Random.Range(5f, 50f);
+        offsetX = Random.Range(2f, 25);
+        offsetZ = Random.Range(2f, 25);
+        scale = Random.Range(5f, 15);
     }
 
     void CreateShape() {
